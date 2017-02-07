@@ -34,10 +34,6 @@ plt.show()
 
 
 
-
-
-
-
 try:
     prettyPicture(clf, features_test, labels_test)
 except NameError:

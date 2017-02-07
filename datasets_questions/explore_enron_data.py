@@ -19,4 +19,5 @@ import pickle
 
 enron_data = pickle.load(open("../final_project/final_project_dataset.pkl", "r"))
 
-
+for each in enron_data:
+	print(each, enron_data[each]["total_payments"])
